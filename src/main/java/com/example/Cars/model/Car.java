@@ -19,11 +19,11 @@ public class Car {
 
     @Id
     private ObjectId id;
-    private Integer carID;
+    private String carId;
     private String make;
     private String model;
     private Integer year;
-    //private String color;
+    private String color;
     private Integer price;
     private String fuelType;
     private String transmission;
@@ -32,5 +32,5 @@ public class Car {
     private List<String> images;
 
     @DocumentReference
-    private List<Review> reviewId;
+    private List<Review> reviews;
 }

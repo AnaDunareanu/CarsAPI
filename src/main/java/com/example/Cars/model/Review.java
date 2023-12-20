@@ -17,4 +17,7 @@ public class Review {
     private ObjectId id;
     private String reviewBody;
 
+    public Review(String reviewBody) {
+        this.reviewBody = reviewBody;
+    }
 }
